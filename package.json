@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --env-file=.env app/index.mjs",
-    "start": "node app/index.mjs",
-    "test": "echo \"Error: no test specified\" "
+    "dev": "node --env-file=.env app/index.js",
+    "start": "node dist/final.js",
+    "test": "echo \"Error: no test specified\" ",
+    "build": "webpack"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ishashankkawle/treasure-box-api.git"
@@ -20,6 +20,14 @@
   },
   "homepage": "https://github.com/ishashankkawle/treasure-box-api#readme",
   "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4"
   }
 }
