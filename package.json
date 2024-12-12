@@ -1,0 +1,25 @@
+{
+  "name": "treasure-box-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env app/index.mjs",
+    "start": "node app/index.mjs",
+    "test": "echo \"Error: no test specified\" "
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishashankkawle/treasure-box-api.git"
+  },
+  "author": "Shashank Kawle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishashankkawle/treasure-box-api/issues"
+  },
+  "homepage": "https://github.com/ishashankkawle/treasure-box-api#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
